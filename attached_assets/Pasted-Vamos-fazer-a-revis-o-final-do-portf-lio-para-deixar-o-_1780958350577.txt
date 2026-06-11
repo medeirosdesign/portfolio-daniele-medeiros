@@ -1,0 +1,90 @@
+Vamos fazer a revisão final do portfólio para deixar o projeto pronto para exportação.
+
+Objetivo: manter o layout atual, sem reinventar a identidade visual, apenas corrigir detalhes finais e deixar o código organizado para eu conseguir baixar e hospedar fora do Replit.
+
+Ajustes finais:
+
+1. Manter as páginas:
+
+* Home
+* Projetos
+* Sobre
+* Experiência
+* Contato
+* Páginas individuais dos cases
+
+2. Remover qualquer página, rota ou componente não utilizado.
+
+3. Garantir que todos os links do menu funcionem corretamente:
+
+* Projetos
+* Sobre
+* Experiência
+* Contato
+
+4. Garantir que os botões funcionem:
+
+* Ver Projetos
+* Entre em Contato
+* Todos os projetos
+* Ver estudo de caso
+* Próximo projeto
+* Baixar Currículo PDF
+
+5. No rodapé, manter:
+
+* Daniele Medeiros
+* Product Designer Sênior
+* São Paulo — SP
+* [medeirosdesign@gmail.com](mailto:medeirosdesign@gmail.com)
+* LinkedIn
+* Behance
+
+6. Remover textos fictícios, métricas inventadas ou imagens quebradas.
+
+7. Onde houver imagem genérica, manter como placeholder organizado, mas deixar o código fácil para eu substituir depois.
+
+8. Melhorar responsividade:
+
+* Desktop
+* Tablet
+* Mobile
+
+9. Revisar espaçamentos excessivos nas páginas de case, principalmente entre:
+
+* Contexto
+* Problema
+* Meu Papel
+* Processo
+* Solução
+* Galeria
+* Resultado
+* Aprendizados
+
+10. Garantir que a galeria/lightbox funcione em todos os cases.
+
+11. Garantir que o formulário de contato esteja visualmente correto. Caso ele ainda não envie e-mail de verdade, deixar preparado como formulário visual e comentar no código onde configurar o envio depois.
+
+12. Organizar o projeto para exportação:
+
+* remover arquivos não utilizados
+* organizar imagens na pasta correta
+* manter componentes nomeados corretamente
+* garantir que o projeto rode sem erros
+
+13. Criar um arquivo README.md explicando:
+
+* como rodar o projeto localmente
+* como trocar imagens
+* como editar textos
+* como fazer o build final
+* como publicar em Vercel ou Netlify
+
+14. No final, me informe:
+
+* qual framework foi usado
+* onde ficam os textos
+* onde ficam as imagens
+* qual comando usar para rodar o projeto
+* qual comando usar para gerar o build
+* como baixar/exportar o código-fonte

@@ -1,0 +1,121 @@
+uploads = []
+
+[[generated]]
+id = "I3B3GYMbY-r9lMkC7YMCR"
+uri = "file://artifacts/portfolio/src/assets/b3-hero.png"
+type = "image"
+title = "B3 stock exchange dashboard mockup"
+
+[[generated]]
+id = "hl9o5yHA7lUCS6Acsbv-8"
+uri = "file://artifacts/portfolio/src/assets/sol-agora-hero.png"
+type = "image"
+title = "Sol Agora fintech app mockup"
+
+[[generated]]
+id = "xeSZHyN9DCr2wOvunkk9t"
+uri = "file://artifacts/portfolio/src/assets/zendry-hero.png"
+type = "image"
+title = "Zendry SaaS web app mockup"
+
+[[generated]]
+id = "CE_7sBX9eqI6l5DwrrVDe"
+uri = "file://artifacts/portfolio/src/assets/totvs-hero.png"
+type = "image"
+title = "TOTVS enterprise software mockup"
+
+[[generated]]
+id = "VDAjqLIQt5zF7315Qcs0K"
+uri = "file://artifacts/portfolio/src/assets/designer-portrait.png"
+type = "image"
+title = "Designer portrait in studio"
+
+[[generated]]
+id = "Kxx1X_t9ZFOwp9PnaeGfk"
+uri = "file://artifacts/portfolio/src/assets/portal-ia-1.png"
+type = "image"
+title = "AI dashboard review queue"
+
+[[generated]]
+id = "G8DplD_5Bxi83otUzfLEZ"
+uri = "file://artifacts/portfolio/src/assets/portal-ia-2.png"
+type = "image"
+title = "Content flow diagram"
+
+[[generated]]
+id = "t3_yR6YL462Rstmtoj9lD"
+uri = "file://artifacts/portfolio/src/assets/portal-ia-3.png"
+type = "image"
+title = "Tagging interface"
+
+[[generated]]
+id = "5ZGrL6hzXyzQ6vflqN__1"
+uri = "file://artifacts/portfolio/src/assets/zendry-cripto-1.png"
+type = "image"
+title = "Crypto portfolio screen"
+
+[[generated]]
+id = "WuFpyvyUceOmZlmPpuj3J"
+uri = "file://artifacts/portfolio/src/assets/zendry-cripto-2.png"
+type = "image"
+title = "Crypto transaction flow"
+
+[[generated]]
+id = "xlcWANj_Fp_tC245J1A9j"
+uri = "file://artifacts/portfolio/src/assets/zendry-cripto-3.png"
+type = "image"
+title = "Design system sheet"
+
+[[generated]]
+id = "cAGtOcp1Dif8z8KVCqAzi"
+uri = "file://artifacts/portfolio/src/assets/zendry-plat-1.png"
+type = "image"
+title = "Transfer flow UI"
+
+[[generated]]
+id = "WWqMOgm-hLCJ0vgW0Ia8m"
+uri = "file://artifacts/portfolio/src/assets/zendry-plat-2.png"
+type = "image"
+title = "Financial dashboard"
+
+[[generated]]
+id = "74i4QeDP9lbrUpef1nDGf"
+uri = "file://artifacts/portfolio/src/assets/zendry-plat-3.png"
+type = "image"
+title = "Onboarding screens"
+
+[[generated]]
+id = "74cdLn89mePO_6qKb0u57"
+uri = "file://artifacts/portfolio/src/assets/sol-agora-1.png"
+type = "image"
+title = "Energy dashboard"
+
+[[outputs]]
+id = "LN6N8LxFXwq53z2VrZ3oC"
+uri = "file://artifacts/portfolio/src/assets/sol-agora-2.jpg"
+type = "image"
+title = "clean fintech design calculator interface"
+
+[[outputs]]
+id = "-aq8LHTWUeZwESM6HUDB0"
+uri = "file://artifacts/portfolio/src/assets/sol-agora-3.jpg"
+type = "image"
+title = "user research sticky notes on whiteboard"
+
+[[outputs]]
+id = "ec3NBXec2sPNk_QQVa53N"
+uri = "file://artifacts/portfolio/src/assets/b3-1.jpg"
+type = "image"
+title = "complex financial dashboard on dark screen"
+
+[[outputs]]
+id = "rFUkVuYkj5UU68AAJLAt8"
+uri = "file://artifacts/portfolio/src/assets/b3-2.jpg"
+type = "image"
+title = "trading interface with stock charts"
+
+[[outputs]]
+id = "piwbI18CDPF2ZPEi9BE3u"
+uri = "file://artifacts/portfolio/src/assets/b3-3.jpg"
+type = "image"
+title = "design system ui components documentation"
