@@ -37,23 +37,34 @@ export default function Contact() {
     },
   });
 
-  function onSubmit(_values: z.infer<typeof formSchema>) {
-    /*
-     * CONFIGURAÇÃO DE ENVIO DE E-MAIL
-     * Para ativar o envio real, substitua o setTimeout abaixo por uma
-     * chamada à sua API de e-mail preferida. Opções recomendadas:
-     *
-     * 1. Formspree (https://formspree.io) — sem backend:
-     *    fetch("https://formspree.io/f/SEU_ID", { method: "POST", body: JSON.stringify(values) })
-     *
-     * 2. EmailJS (https://emailjs.com) — sem backend:
-     *    emailjs.send("SERVICE_ID", "TEMPLATE_ID", values, "PUBLIC_KEY")
-     *
-     * 3. API própria — crie um endpoint POST /api/contact no seu backend.
-     */
-    setTimeout(() => {
-      setIsSubmitted(true);
-    }, 800);
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    try {
+      const response = await fetch(
+        "https://formsubmit.co/ajax/medeirosdesign@gmail.com",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            name: values.name,
+            email: values.email,
+            subject: values.subject,
+            message: values.message,
+          }),
+        }
+      );
+  
+      if (response.ok) {
+        setIsSubmitted(true);
+        form.reset();
+      } else {
+        alert("Erro ao enviar mensagem.");
+      }
+    } catch (error) {
+      alert("Erro ao enviar mensagem.");
+    }
   }
 
   return (

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Layout from "@/components/layout/Layout";
-import designerImage from "@/assets/designer-portrait.png";
+import designerImage from "@/assets/daniele-profile.png";
 
 export default function About() {
   return (
@@ -90,7 +90,7 @@ export default function About() {
           >
             <img 
               src={designerImage} 
-              alt="Retrato do Designer" 
+              alt="Retrato de Daniele Medeiros" 
               className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-1000"
             />
           </motion.div>
