@@ -14,6 +14,7 @@ import SolAgora from "@/pages/projects/SolAgora";
 import ZendryCripto from "@/pages/projects/ZendryCripto";
 import ZendryPlataforma from "@/pages/projects/ZendryPlataforma";
 import Totvs from "./pages/projects/Totvs";
+import Case from "@/pages/Case";
 
 const queryClient = new QueryClient();
 
@@ -30,6 +31,7 @@ function Router() {
       <Route path="/projetos/zendry-cripto" component={ZendryCripto} />
       <Route path="/projetos/zendry-plataforma" component={ZendryPlataforma} />
       <Route path="/projetos/totvs" component={Totvs} />
+      <Route path="/case" component={Case} />
       <Route component={NotFound} />
     </Switch>
   );

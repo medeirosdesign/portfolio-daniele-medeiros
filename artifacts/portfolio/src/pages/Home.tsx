@@ -56,11 +56,13 @@ export default function Home() {
             <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground mb-8">
               Daniele Medeiros — Product Designer Sênior
             </p>
-            <h1 className="font-serif text-[48px] md:text-6xl lg:text-7xl xl:text-8xl tracking-tight text-foreground leading-[1.05] mb-10">
-              Transformando produtos complexos em experiências intuitivas.
-            </h1>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl mb-12">
-              Atuo desde a descoberta de oportunidades até a validação de soluções transformando desafios complexos em experiências que os usuários realmente entendem.
+            <h1 className="font-serif text-[48px] md:text-6xl lg:text-7xl xl:text-8xl tracking-tight text-foreground leading-[1.05] mb-10 max-w-5xl">
+  Transformando complexidade
+  <br />
+  em experiências simples.
+</h1>
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mb-12">
+            Sou Product Designer Sênior com mais de 15 anos de experiência criando produtos digitais para fintechs, plataformas B2B e sistemas corporativos. Trabalho de ponta a ponta, da descoberta do problema até a entrega da solução, sempre buscando tornar experiências complexas mais claras e fáceis de usar.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link

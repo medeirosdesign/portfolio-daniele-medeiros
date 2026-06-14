@@ -17,17 +17,17 @@ export default function About() {
               Sobre Mim
             </h1>
             <div className="prose prose-invert prose-lg text-muted-foreground">
-              <p>
-              Sou Product Designer Sênior com mais de 15 anos de experiência na criação e evolução de produtos digitais, atuando desde a descoberta de oportunidades até a validação de soluções em ambientes financeiros, SaaS B2B e sistemas corporativos complexos.
+            <p>
+              Sou Product Designer Sênior com mais de 15 anos de experiência criando produtos digitais para fintechs, plataformas B2B e sistemas corporativos.
               </p>
               <p>
-              Ao longo da minha trajetória, participei da construção e evolução de produtos em empresas como B3, TOTVS, Zendry e Sol Agora, colaborando diretamente com times de Produto, Tecnologia e Negócio para transformar desafios complexos em experiências simples, eficientes e orientadas a resultados.
+              Já atuei em empresas como B3, TOTVS, Zendry e Sol Agora, participando de projetos ligados a produtos financeiros, meios de pagamento, sistemas internos, crédito, Pix, onboarding, relatórios e Design Systems.
               </p>
               <p>
-              Minha atuação combina Product Discovery, UX Research, arquitetura da informação, jornadas do usuário, Design Systems, prototipação e testes de usabilidade. Tenho experiência conduzindo entrevistas, workshops, validação de hipóteses e iniciativas de melhoria contínua baseadas em dados e comportamento dos usuários.
+              Trabalho de ponta a ponta: entendo o problema, organizo fluxos e jornadas, desenho protótipos, valido hipóteses e acompanho a entrega junto com Produto, Tecnologia e Negócio.
               </p>
               <p>
-              Acredito que o design vai muito além da interface. Meu papel é conectar necessidades dos usuários, objetivos de negócio e viabilidade técnica para criar produtos que gerem valor real para as pessoas e para as empresas.
+              Gosto de atuar em produtos complexos, onde o desafio é transformar informação, regra de negócio e restrições técnicas em experiências mais simples, claras e fáceis de usar.
               </p>
             </div>
             
@@ -36,7 +36,7 @@ export default function About() {
               <div className="grid grid-cols-3 gap-8">
               <div>
                 <h3 className="font-medium text-foreground mb-4 uppercase tracking-wider text-sm">
-                  Design
+                  Design e pesquisa
                 </h3>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>Figma / FigJam</li>
@@ -51,7 +51,7 @@ export default function About() {
 
               <div>
                 <h3 className="font-medium text-foreground mb-4 uppercase tracking-wider text-sm">
-                  Product Design
+                Produto
                 </h3>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>Product Discovery</li>
@@ -66,7 +66,7 @@ export default function About() {
 
               <div>
                 <h3 className="font-medium text-foreground mb-4 uppercase tracking-wider text-sm">
-                  Negócio
+                Colaboração
                 </h3>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>Workshops</li>

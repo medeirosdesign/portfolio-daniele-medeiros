@@ -13,7 +13,7 @@ const projects = [
     title: "TOTVS | Produtos Financeiros",
     tags: ["Produtos Financeiros", "B2B", "Design System", "Product Design"],
     description:
-      "Evolução de produtos financeiros corporativos, incluindo análise de crédito, meios de pagamento, automações e Design Systems, conectando necessidades de negócio, tecnologia e experiência do usuário.",
+      "Atuação em produtos financeiros corporativos, incluindo análise de crédito, meios de pagamento, automações e Design System. O foco foi organizar fluxos, melhorar a experiência e aproximar negócio, tecnologia e usuários.",
     image: totvsHero,
     link: "/projetos/totvs",
     index: "01",
@@ -24,7 +24,7 @@ const projects = [
     title: "B3 | SINACOR",
     tags: ["Mercado de Capitais", "Sistemas Financeiros", "Product Design"],
     description:
-      "Modernização de sistemas utilizados por operadores do mercado de capitais, simplificando fluxos críticos e aumentando a eficiência operacional.",
+      "Trabalho em sistemas usados por operadores do mercado de capitais, com foco em simplificar fluxos críticos, organizar informações e tornar tarefas do dia a dia mais eficientes.",
     image: b3Hero,
     link: "/projetos/b3",
     index: "02",
@@ -35,7 +35,7 @@ const projects = [
     title: "Zendry | Plataforma Financeira",
     tags: ["Pagamentos", "Pix", "Fintech", "Product Design"],
     description:
-      "Redesenho e evolução de uma plataforma financeira digital, incluindo Pix, onboarding, integrações, relatórios gerenciais e gestão operacional.",
+      "Experiência em uma plataforma financeira digital com Pix, onboarding, integrações, relatórios e gestão operacional. O trabalho envolveu organizar jornadas, melhorar fluxos e facilitar tarefas importantes para clientes e times internos.",
     image: zendryHero,
     link: "/projetos/zendry-plataforma",
     index: "03",
@@ -46,7 +46,7 @@ const projects = [
     title: "Zendry | Criptoativos",
     tags: ["Cripto", "UX Financeiro", "Design System", "Product Design"],
     description:
-      "Redesenho da experiência de compra, venda, transferência e gestão de criptoativos, com foco em segurança, confiança e clareza para usuários iniciantes e avançados.",
+      "Criação de fluxos para compra, venda, transferência e gestão de criptoativos, com foco em deixar a experiência mais clara, segura e fácil de entender para diferentes perfis de usuário.",
     image: zendryCriptoHero,
     link: "/projetos/zendry-cripto",
     index: "04",
@@ -57,7 +57,7 @@ const projects = [
     title: "Sol Agora",
     tags: ["Fintech", "Discovery", "UX Research", "Product Design"],
     description:
-      "Criação da experiência digital para financiamento de energia solar, conduzindo pesquisas, discovery, prototipação e validação de soluções para clientes e parceiros.",
+      "Criação da experiência digital para financiamento de energia solar, desde a pesquisa e entendimento da jornada até protótipos e validações com clientes, parceiros e áreas de negócio.",
     image: solAgoraHero,
     link: "/projetos/sol-agora",
     index: "05",
@@ -80,9 +80,9 @@ export default function AllProjects() {
           <h1 className="font-serif text-5xl md:text-7xl tracking-tight text-foreground mb-8">
             Projetos
           </h1>
-          <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-          Produtos financeiros, plataformas SaaS B2B e soluções orientadas por IA. Atuação em Product Discovery, UX Research, Design Systems e evolução contínua de produtos digitais complexos.
-          </p>
+          <p className="text-xl text-muted-foreground leading-relaxed max-w-4xl">
+  Aqui compartilho alguns dos projetos em que atuei nos últimos anos, mostrando os desafios, aprendizados e decisões que fizeram parte da construção de produtos digitais.
+</p>
         </motion.div>
       </section>
 

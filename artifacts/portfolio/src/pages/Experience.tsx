@@ -8,42 +8,42 @@ const experiences = [
   role: "Product Designer Sênior",
   period: "2025 — 2026",
   summary:
-  "Atuação na evolução de produtos financeiros corporativos voltados para crédito, meios de pagamento e automação de processos. Colaboração direta com times de Produto, Tecnologia e Negócio na descoberta, definição e validação de soluções SaaS B2B orientadas por dados, necessidades dos usuários e utilização de Inteligência Artificial para apoio à pesquisa, documentação e eficiência dos processos de design.",
+  "Atuação em produtos financeiros corporativos, com foco em crédito, meios de pagamento, automações e Design System. Trabalhei junto aos times de Produto, Tecnologia e Negócio para entender problemas, desenhar fluxos, validar soluções e apoiar decisões com dados, pesquisa e uso de IA no processo de design.",
   },
   {
   company: "Zendry",
   role: "Product Designer",
   period: "2024 — 2025",
   summary:
-  "Evolução da experiência de uma plataforma financeira digital, incluindo Pix, onboarding, integrações, relatórios gerenciais, gestão financeira e produtos relacionados a criptoativos. Participação ativa em pesquisas, prototipação e validação de soluções.",
+"Atuação em uma plataforma financeira digital, com projetos ligados a Pix, onboarding, integrações, relatórios, gestão financeira e criptoativos. Participei de pesquisas, fluxos, protótipos e validações para deixar a experiência mais clara e eficiente.",
   },
   {
   company: "Sol Agora",
   role: "Product Designer",
   period: "2024",
   summary:
-  "Criação da experiência digital para financiamento de energia solar, conduzindo discovery, pesquisas com usuários, arquitetura da informação, prototipação e validação de soluções para clientes e parceiros.",
+"Criação da experiência digital para financiamento de energia solar. Atuei no entendimento da jornada, pesquisa com usuários, organização das informações, prototipação e validação com clientes, parceiros e áreas de negócio.",
   },
   {
   company: "B3 — Bolsa do Brasil",
   role: "Product Designer Sênior",
   period: "2019 — 2024",
   summary:
-  "Atuação na modernização de sistemas utilizados por operadores do mercado de capitais, conduzindo pesquisas, arquitetura da informação, validação de hipóteses e definição de soluções para fluxos financeiros complexos e ambientes regulatórios críticos.",
+"Atuação em sistemas usados por operadores do mercado de capitais. Trabalhei na organização de fluxos financeiros complexos, pesquisa com usuários, arquitetura da informação, validação de hipóteses e melhoria da experiência em ambientes regulados.",
   },
   {
   company: "Auto Avaliar",
   role: "Diretora de Arte",
   period: "2018 — 2019",
   summary:
-  "Liderança de iniciativas digitais voltadas para conversão e experiência do usuário, atuando na integração entre Marketing, Produto e Tecnologia e apoiando decisões orientadas por resultados.",
+  "Atuação em iniciativas digitais com foco em experiência do usuário, conversão e melhoria de produtos. Trabalhei conectando Marketing, Produto e Tecnologia para apoiar decisões mais alinhadas aos objetivos do negócio.",
   },
   {
   company: "Diário de São Paulo & Editora Minuano",
   role: "Designer Digital & Front-end",
   period: "2008 — 2018",
   summary:
-  "Atuação em portais de conteúdo, e-commerce e produtos digitais, participando da criação de interfaces, desenvolvimento front-end (HTML e CSS), arquitetura da informação e otimização da experiência do usuário baseada em comportamento, conversão e métricas.",
+ "Atuação em portais de conteúdo, e-commerce e produtos digitais. Participei da criação de interfaces, organização de conteúdo, desenvolvimento front-end com HTML e CSS e melhorias baseadas em comportamento dos usuários, conversão e métricas.",
   },
   ];
   
@@ -63,7 +63,7 @@ export default function Experience() {
           </p>
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-8">
             <h1 className="font-serif text-5xl md:text-7xl tracking-tight text-foreground">
-            Experiência Profissional
+            Experiência
             </h1>
             {/* CURRÍCULO PDF — substitua o href="#" pelo caminho do arquivo.
                 Opção 1: arquivo local → coloque daniele-medeiros-cv.pdf em /public e use href="/daniele-medeiros-cv.pdf"

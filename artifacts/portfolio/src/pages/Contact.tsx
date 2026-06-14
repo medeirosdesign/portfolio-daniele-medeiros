@@ -79,7 +79,7 @@ export default function Contact() {
             Contato
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed max-w-4xl mb-16">
-          Product Designer Sênior com experiência em produtos financeiros, SaaS B2B e sistemas corporativos complexos. Atuo desde a descoberta de oportunidades até a validação de soluções, colaborando com times de Produto, Tecnologia e Negócio para transformar desafios complexos em experiências simples e orientadas a resultados.
+          Quer conversar sobre uma vaga, projeto ou parceria? Me envie uma mensagem por aqui ou entre em contato pelo LinkedIn. Tenho experiência em produtos financeiros, plataformas B2B e sistemas corporativos, atuando de ponta a ponta para criar experiências mais simples e fáceis de usar.
           </p>
         </motion.div>
 
@@ -95,8 +95,8 @@ export default function Contact() {
                 <CheckCircle2 className="w-8 h-8 text-foreground" />
               </div>
               <div>
-                <h3 className="text-2xl font-serif text-foreground mb-2">Mensagem Enviada</h3>
-                <p className="text-muted-foreground">Obrigado pelo contato. Retornarei em breve.</p>
+                <h3 className="text-2xl font-serif text-foreground mb-2">Mensagem enviadaa</h3>
+                <p className="text-muted-foreground">Obrigada pelo contato. Vou te responder em breve.</p>
               </div>
               <Button variant="outline" onClick={() => setIsSubmitted(false)} className="mt-4">
                 Enviar nova mensagem
@@ -111,7 +111,7 @@ export default function Contact() {
                     name="name"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-muted-foreground">Nome Completo</FormLabel>
+                        <FormLabel className="text-muted-foreground">Nome </FormLabel>
                         <FormControl>
                           <Input placeholder="Seu nome" {...field} className="bg-background border-border focus-visible:ring-foreground" />
                         </FormControl>
@@ -141,7 +141,7 @@ export default function Contact() {
                     <FormItem>
                       <FormLabel className="text-muted-foreground">Assunto</FormLabel>
                       <FormControl>
-                        <Input placeholder="Qual o motivo do contato?" {...field} className="bg-background border-border focus-visible:ring-foreground" />
+                        <Input placeholder="Sobre o que você quer falar?" {...field} className="bg-background border-border focus-visible:ring-foreground" />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -156,7 +156,7 @@ export default function Contact() {
                       <FormLabel className="text-muted-foreground">Mensagem</FormLabel>
                       <FormControl>
                         <Textarea 
-                          placeholder="Conte-me mais sobre o seu projeto..." 
+                          placeholder="Escreva sua mensagem..." 
                           className="min-h-[150px] bg-background border-border focus-visible:ring-foreground resize-y" 
                           {...field} 
                         />
@@ -167,7 +167,7 @@ export default function Contact() {
                 />
                 
                 <Button type="submit" size="lg" className="w-full md:w-auto bg-foreground text-background hover:bg-foreground/90 font-medium tracking-wide">
-                  Enviar Mensagem
+                Enviar mensagem
                 </Button>
               </form>
             </Form>
