@@ -69,7 +69,7 @@ export default function Experience() {
                 Opção 1: arquivo local → coloque daniele-medeiros-cv.pdf em /public e use href="/daniele-medeiros-cv.pdf"
                 Opção 2: link externo → use a URL do Google Drive ou Notion com download direto */}
             <a
-              href="#"
+              href="/Daniele-Medeiros-Product-Designer-Senior.pdf"
               className="inline-flex items-center gap-2 shrink-0 text-sm font-medium text-muted-foreground border border-border hover:text-foreground hover:border-foreground/40 transition-colors px-5 py-3"
               data-testid="button-download-cv"
               download
