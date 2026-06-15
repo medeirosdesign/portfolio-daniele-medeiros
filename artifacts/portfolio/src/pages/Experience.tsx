@@ -72,7 +72,7 @@ export default function Experience() {
               href="/Daniele-Medeiros-Product-Designer-Senior.pdf"
               className="inline-flex items-center gap-2 shrink-0 text-sm font-medium text-muted-foreground border border-border hover:text-foreground hover:border-foreground/40 transition-colors px-5 py-3"
               data-testid="button-download-cv"
-              download
+              download="Daniele-Medeiros-Product-Designer-Senior.pdf"
             >
               <Download size={15} />
               Download do Currículo
